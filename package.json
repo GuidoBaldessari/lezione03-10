@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "test": "node --nolazy --inspect-brk=9229 app.js"
+    "debug": "node --nolazy --inspect-brk=9229 app.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/GuidoBaldessari/lezione03-10/issues"
   },
-  "homepage": "https://github.com/GuidoBaldessari/lezione03-10#readme"
+  "homepage": "https://github.com/GuidoBaldessari/lezione03-10#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
